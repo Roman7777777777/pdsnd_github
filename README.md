@@ -1,17 +1,22 @@
->**Note**: Please **fork** the current Udacity repository so that you will have a **remote** repository in **your** Github account. Clone the remote repository to your local machine. Later, as a part of the project "Post your Work on Github", you will push your proposed changes to the remote repository in your Github account.
 
 ### Date created
-Include the date you created this project and README file.
 
-### Project Title
-Replace the Project Title
+2022-12-29
+
+### Bikeshare
 
 ### Description
-Describe what your project is about and what it does
+
+This project includes some analysis for bikesharing data in the US. The program is written in python as part of the course "Programming for Data Science with Python" on Udacity.
 
 ### Files used
-Include the files used
+
+In the project data from Motivate (https://motivateco.com/) is used for analysis.
+
+You can get the data from here: 
+https://ride.divvybikes.com/system-data (Chicago) 
+https://ride.citibikenyc.com/system-data (New York City)
+https://ride.capitalbikeshare.com/system-data (Washington)
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
+Repository of https://github.com/udacity/pdsnd_github was forked for this repository.
