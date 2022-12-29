@@ -7,7 +7,7 @@
 
 ### Description
 
-This project includes some analysis for bikesharing data in the US. The program is written in python as part of the course "Programming for Data Science with Python" on Udacity.
+This project includes some analysis for bikesharing data in the US. Data can be filtered by month, day, both or not at all. Also it is possible to print raw data. The program is written in python as part of the course "Programming for Data Science with Python" on Udacity.
 
 ### Files used
 
