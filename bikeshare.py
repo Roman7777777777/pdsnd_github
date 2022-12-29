@@ -63,7 +63,7 @@ def get_filters():
             filter = str(filter)
             filter = filter.lower()
             if filter not in filter_dics.keys():
-                print('Please enter a valid filter!')
+                print('Please enter one of the four options!')
                 continue
             else:
                 filter = filter_dics[filter]
@@ -108,7 +108,7 @@ def get_filters():
                     day = day_dics[day]
                     validity_day = True
             except:
-                print("Please enter a valid month string.")
+                print("Please enter a valid day string.")
                 continue
         if filter == 'day':
             month = 'all'
