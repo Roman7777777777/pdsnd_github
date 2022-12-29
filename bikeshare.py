@@ -17,7 +17,7 @@ def spacer():
     """ Prints some spacing characters. """
 
     print('\n')
-    print('-'*40)
+    print('#'*60)
     print('\n')
 
 def get_filters():
