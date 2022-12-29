@@ -129,7 +129,7 @@ def load_data(city, month, day):
         (str) month - name of the month to filter by, or "all" to apply no month filter
         (str) day - name of the day of week to filter by, or "all" to apply no day filter
     Returns:
-        df - Pandas DataFrame containing city data filtered by month and day
+        (DataFrame) df - Pandas DataFrame containing city data filtered by month and day
     """
 
     city_data = { 'chicago': 'chicago.csv', 'new york city': 'new_york_city.csv', 'washington': 'washington.csv' }
@@ -164,7 +164,7 @@ def time_stats(df):
     Displays statistics on the most frequent times of travel.
 
     Args:
-        df - Pandas DataFrame containing filtered city data
+        (DataFrame) df - Pandas DataFrame containing filtered city data
     """
 
     print('\nCalculating The Most Frequent Times of Travel...\n')
@@ -191,7 +191,7 @@ def station_stats(df):
     Displays statistics on the most popular stations and trip.
 
     Args:
-        df - Pandas DataFrame containing filtered city data
+        (DataFrame) df - Pandas DataFrame containing filtered city data
     """
 
     print('\nCalculating The Most Popular Stations and Trip...\n')
@@ -217,7 +217,7 @@ def trip_duration_stats(df):
     Displays statistics on the total and average trip duration.
 
     Args:
-        df - Pandas DataFrame containing filtered city data
+        (DataFrame) df - Pandas DataFrame containing filtered city data
     """
 
     print('\nCalculating Trip Duration...\n')
@@ -241,7 +241,7 @@ def user_stats(df, city):
 
     Args:
         (str) city - name of the city to prevent not possible analysis on washington
-        df - Pandas DataFrame containing filtered city data
+        (DataFrame) df - Pandas DataFrame containing filtered city data
     """
 
     print('\nCalculating User Stats...\n')
@@ -308,7 +308,7 @@ def want_raw_data(df):
     Prints 5 lines of raw data to user after request is confirmed as often as it is confirmed.
 
     Args:
-        df - Pandas DataFrame containing filtered city data
+        (DataFrame) df - Pandas DataFrame containing filtered city data
     """
     validity_raw = False
     counter = 0
